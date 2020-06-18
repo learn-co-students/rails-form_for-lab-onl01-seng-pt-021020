@@ -1,0 +1,7 @@
+<h3>School Classes</h3>
+
+<ul>
+    <% @school_classes.each do |school_class|%>
+        <li><%= link_to "#{school_class.display}", school_class_path(school_class.id) %></li>
+    <% end %>
+</ul>
