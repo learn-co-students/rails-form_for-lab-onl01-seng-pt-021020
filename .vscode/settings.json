@@ -1,0 +1,16 @@
+{
+    "emmet.excludeLanguages": [
+        
+    
+        "markdown"
+    ],
+
+    "emmet.triggerExpansionOnTab": true,
+
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "ruby": "ruby",
+        "html": "html",
+        "css": "css"
+      },
+}
